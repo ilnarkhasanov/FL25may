@@ -145,6 +145,9 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonEnd
@@ -166,7 +169,7 @@
             this.labelQuastion.Location = new System.Drawing.Point(629, 11);
             this.labelQuastion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelQuastion.Name = "labelQuastion";
-            this.labelQuastion.Size = new System.Drawing.Size(581, 294);
+            this.labelQuastion.Size = new System.Drawing.Size(581, 44);
             this.labelQuastion.TabIndex = 1;
             this.labelQuastion.Text = "Вопросы:\r\n";
             // 
@@ -1300,6 +1303,42 @@
             this.label28.TabIndex = 38;
             this.label28.Text = "6";
             // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Green;
+            this.label29.Location = new System.Drawing.Point(633, 63);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(231, 40);
+            this.label29.TabIndex = 39;
+            this.label29.Text = "По горизонтали:";
+            // 
+            // label31
+            // 
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Honeydew;
+            this.label31.Location = new System.Drawing.Point(633, 108);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(577, 255);
+            this.label31.TabIndex = 41;
+            this.label31.Text = resources.GetString("label31.Text");
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Green;
+            this.label30.Location = new System.Drawing.Point(633, 371);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(231, 40);
+            this.label30.TabIndex = 42;
+            this.label30.Text = "По вертикали:";
+            // 
             // FormGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1307,6 +1346,9 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1227, 615);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label29);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
@@ -1549,5 +1591,8 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
     }
 }

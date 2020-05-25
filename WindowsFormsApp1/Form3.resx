@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label31.Text" xml:space="preserve">
+    <value>2. Солнечный ... . 6. Я - минус в математике, но знак другой в грамматике. 7. Мама фыркающей колючки. 8. Приспособление для обливания. 9. "... утро вечера мудреннее" (посл.). 10. Обижается порой, если назовут змеёй. Длинный, тонкий, но, друзья, я всё же рыба, не змея. 11. Ответ утки на любой вопрос. 13. Видит ..., да зуб неймёт. 15. Слезами ему не поможешь. 17. Итальянский пирог. 18. Маленькая анна. 19. Увеличительное стекло в арсенале следователя. 20. Улица, не имеющая сквозного прохода и проезда. 21. Просторечный родственник слова "да". 22. "Королевство кривых зеркал", персонаж.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
