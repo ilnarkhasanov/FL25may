@@ -148,6 +148,7 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonEnd
@@ -1318,7 +1319,7 @@
             // label31
             // 
             this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.Honeydew;
             this.label31.Location = new System.Drawing.Point(633, 108);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1332,12 +1333,24 @@
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.Green;
-            this.label30.Location = new System.Drawing.Point(633, 371);
+            this.label30.Location = new System.Drawing.Point(630, 297);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(231, 40);
             this.label30.TabIndex = 42;
             this.label30.Text = "По вертикали:";
+            // 
+            // label32
+            // 
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Honeydew;
+            this.label32.Location = new System.Drawing.Point(635, 337);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(577, 175);
+            this.label32.TabIndex = 43;
+            this.label32.Text = resources.GetString("label32.Text");
             // 
             // FormGame
             // 
@@ -1346,6 +1359,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1227, 615);
+            this.Controls.Add(this.label32);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label29);
@@ -1594,5 +1608,6 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label32;
     }
 }
