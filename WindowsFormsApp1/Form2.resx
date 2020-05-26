@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Главная задача разгадывающего – заполнить белые клетки фигуры по горизонтали (слева на право) и по вертикали (сверху вниз) словами, значение которых дается под сеткой кроссворда. Каждая клетка предназначается только для одной буквы. Вписывание слова начинается с клетки, где стоит номер, и заканчивается темной клеткой или краем фигуры. Отсюда понятно, что при подборе слов к какому-нибудь определению надо брать такие слова, у которых число букв совпадает с количеством клеток того ряда чертежа, куда нужно вписывать это слово.
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
