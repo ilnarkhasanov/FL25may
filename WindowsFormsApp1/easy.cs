@@ -78,7 +78,61 @@ namespace WindowsFormsApp1
                 arfa_right = true;
             }
 
+            string res = "";
 
+            res = res + "1 по горизонтали: ";
+            if (buben_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "2 по горизонтали: ";
+            if (truba_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "3 по горизонтали: ";
+            if (guitar_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "1 по вертикали: ";
+            if (baraban_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "4 по вертикали: ";
+            if (arfa_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            MessageBox.Show(
+                res
+                );
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
