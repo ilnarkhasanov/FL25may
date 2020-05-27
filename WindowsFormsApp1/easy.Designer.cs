@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelQuastion = new System.Windows.Forms.Label();
             this.buttonEnd = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -70,6 +71,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.time_label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -529,12 +532,30 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // time_label
+            // 
+            this.time_label.BackColor = System.Drawing.Color.Transparent;
+            this.time_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time_label.ForeColor = System.Drawing.Color.Green;
+            this.time_label.Location = new System.Drawing.Point(616, 560);
+            this.time_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.time_label.Name = "time_label";
+            this.time_label.Size = new System.Drawing.Size(231, 40);
+            this.time_label.TabIndex = 54;
+            this.time_label.Text = "Время: 0:00";
+            // 
             // easy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Игра_2;
             this.ClientSize = new System.Drawing.Size(1227, 615);
+            this.Controls.Add(this.time_label);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label8);
@@ -633,5 +654,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label time_label;
     }
 }

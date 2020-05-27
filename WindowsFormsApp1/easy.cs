@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,9 +13,27 @@ namespace WindowsFormsApp1
 {
     public partial class easy : Form
     {
+        public int minutes;
+        public int seconds;
+
         public easy()
         {
             InitializeComponent();
+            timer1.Start();
+            minutes = 0;
+            seconds = 0;
+        }
+
+        public string seconds_format(int min)
+        {
+            if (min < 10)
+            {
+                return "0" + min.ToString();
+            }
+            else
+            {
+                return min.ToString();
+            }
         }
 
         private void buttonEnd_Click(object sender, EventArgs e)
@@ -409,6 +428,18 @@ namespace WindowsFormsApp1
             {
                 textBox23.Text = "";
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            seconds++;
+            if (seconds == 60)
+            {
+                minutes++;
+                seconds = 0;
+            }
+
+            time_label.Text = "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
         }
     }
 }
