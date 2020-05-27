@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="easy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="easy.Designer.cs">
+      <DependentUpon>easy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="easy.resx">
+      <DependentUpon>easy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +107,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Игра 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baraban.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buben.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arfa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

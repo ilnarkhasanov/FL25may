@@ -24,6 +24,19 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!(radioButtonEasy.Checked || radioButtonNormal.Checked || radioButtonDifficult.Checked)) 
+            {
+                var result = MessageBox.Show("Вы не выбрали кнопку!");
+                return;
+            }
+
+            if (radioButtonEasy.Checked)
+            {
+                easy easyWindow = new easy();
+                easyWindow.Show();
+                return;
+            }
+
             FormGame f3 = new FormGame();
             f3.Show();
         }

@@ -41,9 +41,10 @@
             // buttonExit
             // 
             this.buttonExit.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonExit.Location = new System.Drawing.Point(12, 359);
+            this.buttonExit.Location = new System.Drawing.Point(16, 442);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(131, 31);
+            this.buttonExit.Size = new System.Drawing.Size(175, 38);
             this.buttonExit.TabIndex = 7;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // buttonRegulations
             // 
             this.buttonRegulations.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRegulations.Location = new System.Drawing.Point(12, 317);
+            this.buttonRegulations.Location = new System.Drawing.Point(16, 390);
+            this.buttonRegulations.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonRegulations.Name = "buttonRegulations";
-            this.buttonRegulations.Size = new System.Drawing.Size(131, 31);
+            this.buttonRegulations.Size = new System.Drawing.Size(175, 38);
             this.buttonRegulations.TabIndex = 6;
             this.buttonRegulations.Text = "Правила";
             this.buttonRegulations.UseVisualStyleBackColor = true;
@@ -66,9 +68,10 @@
             this.labelMenu.BackColor = System.Drawing.Color.Transparent;
             this.labelMenu.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelMenu.ForeColor = System.Drawing.Color.Yellow;
-            this.labelMenu.Location = new System.Drawing.Point(12, 161);
+            this.labelMenu.Location = new System.Drawing.Point(16, 198);
+            this.labelMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMenu.Name = "labelMenu";
-            this.labelMenu.Size = new System.Drawing.Size(88, 31);
+            this.labelMenu.Size = new System.Drawing.Size(110, 38);
             this.labelMenu.TabIndex = 5;
             this.labelMenu.Text = "Меню";
             this.labelMenu.Click += new System.EventHandler(this.label1_Click);
@@ -76,9 +79,10 @@
             // buttonPlay
             // 
             this.buttonPlay.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonPlay.Location = new System.Drawing.Point(12, 225);
+            this.buttonPlay.Location = new System.Drawing.Point(16, 277);
+            this.buttonPlay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPlay.Name = "buttonPlay";
-            this.buttonPlay.Size = new System.Drawing.Size(131, 31);
+            this.buttonPlay.Size = new System.Drawing.Size(175, 38);
             this.buttonPlay.TabIndex = 4;
             this.buttonPlay.Text = "Играть";
             this.buttonPlay.UseVisualStyleBackColor = true;
@@ -87,9 +91,10 @@
             // radioButtonEasy
             // 
             this.radioButtonEasy.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.radioButtonEasy.Location = new System.Drawing.Point(12, 272);
+            this.radioButtonEasy.Location = new System.Drawing.Point(16, 332);
+            this.radioButtonEasy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButtonEasy.Name = "radioButtonEasy";
-            this.radioButtonEasy.Size = new System.Drawing.Size(131, 31);
+            this.radioButtonEasy.Size = new System.Drawing.Size(175, 42);
             this.radioButtonEasy.TabIndex = 8;
             this.radioButtonEasy.TabStop = true;
             this.radioButtonEasy.Text = "Легко";
@@ -98,9 +103,10 @@
             // radioButtonNormal
             // 
             this.radioButtonNormal.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.radioButtonNormal.Location = new System.Drawing.Point(149, 270);
+            this.radioButtonNormal.Location = new System.Drawing.Point(199, 332);
+            this.radioButtonNormal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButtonNormal.Name = "radioButtonNormal";
-            this.radioButtonNormal.Size = new System.Drawing.Size(131, 34);
+            this.radioButtonNormal.Size = new System.Drawing.Size(175, 42);
             this.radioButtonNormal.TabIndex = 8;
             this.radioButtonNormal.TabStop = true;
             this.radioButtonNormal.Text = "Нормально";
@@ -110,9 +116,10 @@
             // radioButtonDifficult
             // 
             this.radioButtonDifficult.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.radioButtonDifficult.Location = new System.Drawing.Point(286, 270);
+            this.radioButtonDifficult.Location = new System.Drawing.Point(381, 332);
+            this.radioButtonDifficult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButtonDifficult.Name = "radioButtonDifficult";
-            this.radioButtonDifficult.Size = new System.Drawing.Size(131, 34);
+            this.radioButtonDifficult.Size = new System.Drawing.Size(175, 42);
             this.radioButtonDifficult.TabIndex = 8;
             this.radioButtonDifficult.TabStop = true;
             this.radioButtonDifficult.Text = "Сложно";
@@ -120,11 +127,11 @@
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(455, 409);
+            this.ClientSize = new System.Drawing.Size(607, 503);
             this.Controls.Add(this.radioButtonDifficult);
             this.Controls.Add(this.radioButtonNormal);
             this.Controls.Add(this.radioButtonEasy);
@@ -132,6 +139,7 @@
             this.Controls.Add(this.buttonRegulations);
             this.Controls.Add(this.labelMenu);
             this.Controls.Add(this.buttonPlay);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMenu";
             this.Text = "Кроссворд";
             this.ResumeLayout(false);
