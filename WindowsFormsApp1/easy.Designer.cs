@@ -58,7 +58,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -73,6 +72,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.time_label = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -88,7 +88,7 @@
             this.labelQuastion.Location = new System.Drawing.Point(629, 11);
             this.labelQuastion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelQuastion.Name = "labelQuastion";
-            this.labelQuastion.Size = new System.Drawing.Size(581, 44);
+            this.labelQuastion.Size = new System.Drawing.Size(581, 45);
             this.labelQuastion.TabIndex = 2;
             this.labelQuastion.Text = "Вопросы:\r\n";
             // 
@@ -392,24 +392,12 @@
             this.label4.TabIndex = 35;
             this.label4.Text = "4";
             // 
-            // label29
-            // 
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Green;
-            this.label29.Location = new System.Drawing.Point(633, 63);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(231, 40);
-            this.label29.TabIndex = 40;
-            this.label29.Text = "По горизонтали:";
-            // 
             // label31
             // 
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.Honeydew;
-            this.label31.Location = new System.Drawing.Point(621, 99);
+            this.label31.Location = new System.Drawing.Point(616, 110);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(139, 125);
@@ -453,7 +441,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.buben;
-            this.pictureBox2.Location = new System.Drawing.Point(662, 99);
+            this.pictureBox2.Location = new System.Drawing.Point(662, 114);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(122, 110);
             this.pictureBox2.TabIndex = 46;
@@ -464,7 +452,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Honeydew;
-            this.label6.Location = new System.Drawing.Point(801, 99);
+            this.label6.Location = new System.Drawing.Point(791, 110);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(139, 125);
@@ -474,7 +462,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.truba;
-            this.pictureBox3.Location = new System.Drawing.Point(842, 99);
+            this.pictureBox3.Location = new System.Drawing.Point(842, 113);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(161, 125);
             this.pictureBox3.TabIndex = 48;
@@ -485,7 +473,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Honeydew;
-            this.label7.Location = new System.Drawing.Point(1018, 99);
+            this.label7.Location = new System.Drawing.Point(1018, 111);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(139, 125);
@@ -495,7 +483,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.guitar;
-            this.pictureBox4.Location = new System.Drawing.Point(1055, 99);
+            this.pictureBox4.Location = new System.Drawing.Point(1055, 111);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(102, 175);
             this.pictureBox4.TabIndex = 50;
@@ -549,12 +537,25 @@
             this.time_label.TabIndex = 54;
             this.time_label.Text = "Время: 0:00";
             // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Green;
+            this.label9.Location = new System.Drawing.Point(633, 70);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(270, 41);
+            this.label9.TabIndex = 55;
+            this.label9.Text = "По горизонтали:";
+            // 
             // easy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Игра_2;
             this.ClientSize = new System.Drawing.Size(1227, 615);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.time_label);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox5);
@@ -568,7 +569,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.label29);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -641,7 +641,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label5;
@@ -656,5 +655,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label time_label;
+        private System.Windows.Forms.Label label9;
     }
 }
