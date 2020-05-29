@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="easy_.cs">
+    <Compile Include="middle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="easy_.Designer.cs">
-      <DependentUpon>easy_.cs</DependentUpon>
+    <Compile Include="middle.Designer.cs">
+      <DependentUpon>middle.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,8 +79,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="easy_.resx">
-      <DependentUpon>easy_.cs</DependentUpon>
+    <EmbeddedResource Include="middle.resx">
+      <DependentUpon>middle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -158,6 +158,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\middle8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedmiddle9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

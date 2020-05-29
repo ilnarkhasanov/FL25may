@@ -34,6 +34,12 @@ namespace WindowsFormsApp1
                 easy easyWindow = new easy();
                 easyWindow.Show();
             }
+
+            if (radioButtonNormal.Checked)
+            {
+                middle middleWindow = new middle();
+                middleWindow.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)

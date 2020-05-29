@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class easy_ : Form
+    public partial class middle : Form
     {
         public int minutes;
         public int seconds;
 
-        public easy_()
+        public middle()
         {
             InitializeComponent();
             timer1.Start();
@@ -442,6 +442,11 @@ namespace WindowsFormsApp1
             }
 
             time_label.Text = "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

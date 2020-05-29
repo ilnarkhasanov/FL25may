@@ -121,8 +121,14 @@
   <data name="middle3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="updatedmiddle8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="buben" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buben.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middle4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arfa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arfa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,31 +139,52 @@
   <data name="middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="updatedmiddle3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatedmiddle7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="truba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\truba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baraban" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baraban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="middle7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\middle7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updatedmiddle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatedmiddle6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatedmiddle4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Игра 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Игра 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="middle8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middle8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="middle6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="middle4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\middle4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updatedmiddle5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="middle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="middle7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middle7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="middle5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="middle8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\middle8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updatedmiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatedmiddle9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
