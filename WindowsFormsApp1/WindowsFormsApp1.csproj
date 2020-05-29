@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="easy.cs">
+    <Compile Include="easy_.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="easy.Designer.cs">
-      <DependentUpon>easy.cs</DependentUpon>
+    <Compile Include="easy_.Designer.cs">
+      <DependentUpon>easy_.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -71,16 +71,16 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="middle.cs">
+    <Compile Include="easy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="middle.Designer.cs">
-      <DependentUpon>middle.cs</DependentUpon>
+    <Compile Include="easy.Designer.cs">
+      <DependentUpon>easy.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="easy.resx">
-      <DependentUpon>easy.cs</DependentUpon>
+    <EmbeddedResource Include="easy_.resx">
+      <DependentUpon>easy_.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -91,8 +91,8 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="middle.resx">
-      <DependentUpon>middle.cs</DependentUpon>
+    <EmbeddedResource Include="easy.resx">
+      <DependentUpon>easy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
