@@ -148,6 +148,12 @@
   <data name="truba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\truba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="middle7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middle7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="baraban" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baraban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,8 +181,8 @@
   <data name="middle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="middle7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\middle7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updatedmiddle9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedmiddle9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="middle5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\middle5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +190,7 @@
   <data name="updatedmiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\updatedmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="updatedmiddle9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updatedmiddle9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
