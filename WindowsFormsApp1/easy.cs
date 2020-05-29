@@ -814,6 +814,8 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
+            res = res + "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
+
             MessageBox.Show(res);
         }
 
