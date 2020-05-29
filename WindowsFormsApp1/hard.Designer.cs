@@ -109,6 +109,9 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.time_label = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonEnd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -981,12 +984,48 @@
             this.pictureBox11.TabIndex = 111;
             this.pictureBox11.TabStop = false;
             // 
+            // time_label
+            // 
+            this.time_label.BackColor = System.Drawing.Color.Transparent;
+            this.time_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time_label.ForeColor = System.Drawing.Color.Green;
+            this.time_label.Location = new System.Drawing.Point(863, 709);
+            this.time_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.time_label.Name = "time_label";
+            this.time_label.Size = new System.Drawing.Size(231, 40);
+            this.time_label.TabIndex = 114;
+            this.time_label.Text = "Время: 0:00";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1101, 711);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(175, 38);
+            this.button1.TabIndex = 113;
+            this.button1.Text = "Проверить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonEnd
+            // 
+            this.buttonEnd.Location = new System.Drawing.Point(1283, 711);
+            this.buttonEnd.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonEnd.Name = "buttonEnd";
+            this.buttonEnd.Size = new System.Drawing.Size(175, 38);
+            this.buttonEnd.TabIndex = 112;
+            this.buttonEnd.Text = "Закончить";
+            this.buttonEnd.UseVisualStyleBackColor = true;
+            this.buttonEnd.Click += new System.EventHandler(this.buttonEnd_Click);
+            // 
             // hard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Игра_2;
             this.ClientSize = new System.Drawing.Size(1471, 759);
+            this.Controls.Add(this.time_label);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonEnd);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.pictureBox10);
@@ -1169,5 +1208,8 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label time_label;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonEnd;
     }
 }
