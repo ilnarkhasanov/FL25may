@@ -198,5 +198,35 @@
   <ItemGroup>
     <None Include="Resources\hard.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hard11.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
