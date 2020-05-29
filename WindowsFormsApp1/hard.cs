@@ -12,9 +12,28 @@ namespace WindowsFormsApp1
 {
     public partial class hard : Form
     {
+        public int minutes;
+        public int seconds;
+
         public hard()
         {
             InitializeComponent();
+
+            timer1.Start();
+            minutes = 0;
+            seconds = 0;
+        }
+
+        public string seconds_format(int min)
+        {
+            if (min < 10)
+            {
+                return "0" + min.ToString();
+            }
+            else
+            {
+                return min.ToString();
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -813,7 +832,21 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
+            res = res + "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
+
             MessageBox.Show(res);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            seconds++;
+            if (seconds == 60)
+            {
+                minutes++;
+                seconds = 0;
+            }
+
+            time_label.Text = "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
         }
     }
 }

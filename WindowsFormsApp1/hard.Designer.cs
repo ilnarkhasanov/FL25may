@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -112,6 +113,7 @@
             this.time_label = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonEnd = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1017,6 +1019,11 @@
             this.buttonEnd.UseVisualStyleBackColor = true;
             this.buttonEnd.Click += new System.EventHandler(this.buttonEnd_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // hard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1211,5 +1218,6 @@
         private System.Windows.Forms.Label time_label;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonEnd;
+        private System.Windows.Forms.Timer timer1;
     }
 }
