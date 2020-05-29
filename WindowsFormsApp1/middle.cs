@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -43,64 +44,124 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool baraban_right = false;
-            bool buben_right = false;
-            bool truba_right = false;
-            bool guitar_right = false;
-            bool arfa_right = false;
+            bool crocodile_right = false;
+            bool verblud_right = false;
+            bool begemot_right = false;
+            bool nosorog_right = false;
+            bool monkey_right = false;
+            bool leo_right = false;
+            bool slon_right = false;
+            bool jiraf_right = false;
+            bool cenguru_right = false;
 
-            if (textBox5.Text.ToLower() == "б" &&
-                textBox8.Text.ToLower() == "у" &&
-                textBox9.Text.ToLower() == "б" &&
-                textBox10.Text.ToLower() == "е" &&
-                textBox11.Text.ToLower() == "н")
-            {
-                buben_right = true;
-            }
-
-            if (textBox5.Text.ToLower() == "б" &&
-                textBox1.Text.ToLower() == "а" &&
+            if (textBox1.Text.ToLower() == "к" &&
                 textBox2.Text.ToLower() == "р" &&
-                textBox3.Text.ToLower() == "а" &&
-                textBox4.Text.ToLower() == "б" &&
-                textBox6.Text.ToLower() == "а" &&
-                textBox7.Text.ToLower() == "н"
-                )
+                textBox3.Text.ToLower() == "о" &&
+                textBox16.Text.ToLower() == "к" &&
+                textBox17.Text.ToLower() == "о" &&
+                textBox36.Text.ToLower() == "д" &&
+                textBox37.Text.ToLower() == "и" &&
+                textBox38.Text.ToLower() == "л")
             {
-                baraban_right = true;
+                crocodile_right = true;
             }
 
-            if (textBox12.Text.ToLower() == "т" &&
-                textBox2.Text.ToLower() == "р" &&
-                textBox13.Text.ToLower() == "у" &&
-                textBox14.Text.ToLower() == "б" &&
-                textBox15.Text.ToLower() == "а")
+            if (textBox9.Text.ToLower() == "в" &&
+                textBox8.Text.ToLower() == "е" &&
+                textBox11.Text.ToLower() == "р" &&
+                textBox12.Text.ToLower() == "б" &&
+                textBox13.Text.ToLower() == "л" &&
+                textBox14.Text.ToLower() == "ю" &&
+                textBox15.Text.ToLower() == "д")
             {
-                truba_right = true;
+                verblud_right = true;
             }
 
-            if (textBox18.Text.ToLower() == "г" &&
-                textBox17.Text.ToLower() == "и" &&
-                textBox16.Text.ToLower() == "т" &&
-                textBox6.Text.ToLower() == "а" &&
-                textBox19.Text.ToLower() == "р" &&
-                textBox20.Text.ToLower() == "а")
+            if (textBox10.Text.ToLower() == "б" &&
+                textBox8.Text.ToLower() == "е" &&
+                textBox7.Text.ToLower() == "г" &&
+                textBox6.Text.ToLower() == "е" &&
+                textBox5.Text.ToLower() == "м" &&
+                textBox3.Text.ToLower() == "о" &&
+                textBox4.Text.ToLower() == "т")
             {
-                guitar_right = true;
+                begemot_right = true;
             }
 
-            if (textBox20.Text.ToLower() == "а" &&
+            if (textBox18.Text.ToLower() == "н" &&
+                textBox17.Text.ToLower() == "о" &&
+                textBox19.Text.ToLower() == "с" &&
+                textBox20.Text.ToLower() == "о" &&
                 textBox21.Text.ToLower() == "р" &&
-                textBox22.Text.ToLower() == "ф" &&
-                textBox1.Text.ToLower() == "а")
+                textBox22.Text.ToLower() == "о" &&
+                textBox23.Text.ToLower() == "г")
             {
-                arfa_right = true;
+                nosorog_right = true;
+            }
+
+            if (textBox22.Text.ToLower() == "о" &&
+                textBox24.Text.ToLower() == "б" &&
+                textBox25.Text.ToLower() == "е" &&
+                textBox28.Text.ToLower() == "з" &&
+                textBox29.Text.ToLower() == "ь" &&
+                textBox30.Text.ToLower() == "я" &&
+                textBox31.Text.ToLower() == "н" &&
+                textBox32.Text.ToLower() == "а")
+            {
+                monkey_right = true;
+            }
+
+            if (textBox22.Text.ToLower() == "о" &&
+                textBox24.Text.ToLower() == "б" &&
+                textBox25.Text.ToLower() == "е" &&
+                textBox28.Text.ToLower() == "з" &&
+                textBox29.Text.ToLower() == "ь" &&
+                textBox30.Text.ToLower() == "я" &&
+                textBox31.Text.ToLower() == "н" &&
+                textBox32.Text.ToLower() == "а")
+            {
+                monkey_right = true;
+            }
+
+            if (textBox27.Text.ToLower() == "л" &&
+                textBox25.Text.ToLower() == "е" &&
+                textBox26.Text.ToLower() == "в")
+            {
+                leo_right = true;
+            }
+
+            if (textBox39.Text.ToLower() == "с" &&
+                textBox38.Text.ToLower() == "л" &&
+                textBox40.Text.ToLower() == "о" &&
+                textBox41.Text.ToLower() == "н")
+            {
+                slon_right = true;
+            }
+
+            if (textBox44.Text.ToLower() == "ж" &&
+                textBox45.Text.ToLower() == "и" &&
+                textBox43.Text.ToLower() == "р" &&
+                textBox47.Text.ToLower() == "а" &&
+                textBox48.Text.ToLower() == "ф")
+            {
+                jiraf_right = true;
+            }
+
+            if (textBox34.Text.ToLower() == "к" &&
+                textBox33.Text.ToLower() == "е" &&
+                textBox31.Text.ToLower() == "н" &&
+                textBox35.Text.ToLower() == "г" &&
+                textBox42.Text.ToLower() == "у" &&
+                textBox43.Text.ToLower() == "р" &&
+                textBox46.Text.ToLower() == "у")
+            {
+                cenguru_right = true;
             }
 
             string res = "";
 
-            res = res + "1 по горизонтали: ";
-            if (buben_right)
+            res = res + "1: ";
+            if (crocodile_right)
             {
                 res = res + "правильно\n";
             }
@@ -109,8 +170,8 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
-            res = res + "2 по горизонтали: ";
-            if (truba_right)
+            res = res + "2: ";
+            if (verblud_right)
             {
                 res = res + "правильно\n";
             }
@@ -119,8 +180,8 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
-            res = res + "3 по горизонтали: ";
-            if (guitar_right)
+            res = res + "3: ";
+            if (begemot_right)
             {
                 res = res + "правильно\n";
             }
@@ -129,8 +190,8 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
-            res = res + "1 по вертикали: ";
-            if (baraban_right)
+            res = res + "4: ";
+            if (nosorog_right)
             {
                 res = res + "правильно\n";
             }
@@ -139,8 +200,48 @@ namespace WindowsFormsApp1
                 res = res + "неправильно\n";
             }
 
-            res = res + "4 по вертикали: ";
-            if (arfa_right)
+            res = res + "5: ";
+            if (monkey_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "6: ";
+            if (leo_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "7: ";
+            if (slon_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "8: ";
+            if (jiraf_right)
+            {
+                res = res + "правильно\n";
+            }
+            else
+            {
+                res = res + "неправильно\n";
+            }
+
+            res = res + "9: ";
+            if (cenguru_right)
             {
                 res = res + "правильно\n";
             }
