@@ -40,6 +40,12 @@ namespace WindowsFormsApp1
                 middle middleWindow = new middle();
                 middleWindow.Show();
             }
+
+            if (radioButtonDifficult.Checked)
+            {
+                hard hardWindow = new hard();
+                hardWindow.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
