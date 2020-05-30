@@ -289,10 +289,17 @@ namespace WindowsFormsApp1
 
             res = res + "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
 
+
+            res = res + "\n\nПерейти на следующий уровень?";
+
             /*Следующий метод показывает результат во всплывающем окне*/
-            MessageBox.Show(
-                res
-                );
+            DialogResult dialogResult = MessageBox.Show(res, "Результат", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                hard hardWindow = new hard();
+                hardWindow.Show();
+                this.Close();
+            }
         }
 
 

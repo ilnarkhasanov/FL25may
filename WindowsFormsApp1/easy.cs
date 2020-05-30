@@ -872,8 +872,16 @@ namespace WindowsFormsApp1
 
             res = res + "Время: " + minutes.ToString() + ":" + seconds_format(seconds);
 
+            res = res + "\n\nПерейти на следующий уровень?";
+
             /*Следующий метод показывает результат во всплывающем окне*/
-            MessageBox.Show(res);
+            DialogResult dialogResult = MessageBox.Show(res, "Результат", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                middle middleWindow = new middle();
+                middleWindow.Show();
+                this.Close();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
